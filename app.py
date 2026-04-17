@@ -28,6 +28,7 @@ with st.sidebar:
     )
     clicked  = st.button("Ask to AI")
 
+st.set_page_config(page_title="Debug Code", layout="wide")
 st.header("Code Debugger",anchor=False)
 st.text("Upload the screen shot of your code to review")
 st.divider()
